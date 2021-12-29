@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "clone-class"
+version = "0.1.0"
+homepage = "https://github.com/shawwn/clone-class"
+description = "A helper function to clone a class type while excluding certain properties/base classes"
+authors = ["Shawn Presser"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "clone_class"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["setuptools", "poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+"Shawn's Website" = "https://www.shawwn.com"
+"Support me on Patreon" = "https://www.patreon.com/shawwn"
+"@theshawwn on Twitter" = "https://www.twitter.com/theshawwn"
+"sillysaurusx on Hacker News" = "https://news.ycombinator.com/threads?id=sillysaurusx"
